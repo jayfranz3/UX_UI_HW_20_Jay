@@ -1,0 +1,188 @@
+/* Jays CSS file */
+/* Fonts */
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+h1 {
+	font-family: 'Roboto';
+	font-size: 55px;
+}
+h2 {
+	font-family: 'Roboto';
+	font-size: 35px;
+}
+h3 {
+	font-family: 'Roboto';
+	font-size: 25px;
+}
+h4 {
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+h5 {
+	font-family: 'Roboto';
+	font-size: 12px;
+}
+h6 {
+	font-family: 'Roboto';
+	font-size: 10px;
+}
+p {
+	font-family: 'Noto Sans JP';
+}
+
+.display-4 {
+	font-family: 'Roboto';
+	font-size: 45px;
+	font-weight: 500;
+}
+
+/* Vertical Nav Bar */
+.flex-column { 
+	background-color: transparent;
+	width: 100px;
+	height: 100vh;
+	z-index: 100;
+	position: fixed;
+}
+.disabled {
+	display: none;
+}
+.logoNav {
+	width: 100%;
+	margin: 10%;
+}
+
+
+.navTab {
+	background-color: #646464;
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 50px;
+	width: auto;
+	margin-top: 15px;
+	text-align: center;
+	padding-top: 13px;
+}
+.nav-link {
+	text-emphasis-color: yellow;
+	box-shadow: 1px 3px 4px lightgrey;
+}
+.nav-link:hover {
+	color: #41AD49;
+	box-shadow: 1px 3px 4px #6AAA6F;
+}
+.navTabUp {
+	background-color: #646464;
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 13px;
+
+}
+.navTabUp svg {
+	height: 20px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	height: calc(110vh - 25px);
+	display: flex;
+	margin-left: 100px;
+    justify-content: center;
+}
+
+.jumboCopy {
+	width: 100%;
+	min-width: 500px;
+	max-width: 800px;
+	color: #646464;
+	text-align: center;
+	}
+
+.jumboImage {
+	width:100%;
+	box-shadow: 2px 1px 5px black;
+	margin-top: 20px;
+
+}
+
+/* BS4 columns */
+
+.container {
+	width: 100%;
+	padding-left: 100px;
+	margin-left: 100px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.col-4 {
+	background-color: white;
+	height: 50%vh;
+	padding-top: 50px;
+}
+
+.col-8 {
+	background-color: white;
+	height: 50%vh;
+	padding-top: 50px;
+}
+
+.col-12 {
+	text-align: center;
+}
+
+
+.heroImage {
+	width: 100%;
+	height: auto;
+	align-self: center;
+}
+
+.infoChunk {
+	background-color: white;
+	height: 50%vh;
+	padding-top: 100px;
+}
+
+.infoDivider {
+	height: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 150px;
+	text-align: center;
+}
+
+.container-flex {
+	background-color: #646464;
+	color: white;
+}
+
+.container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.theBottom {
+	height: 100px;
+	text-align: center;
+	background-color: #646464;
+	color: white;
+	padding: 25px;
+}
+
+
